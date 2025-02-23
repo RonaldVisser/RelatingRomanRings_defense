@@ -1,0 +1,43 @@
+---
+title: "Relating Roman Rings: lekenpraatje"
+author: "Ronald M. Visser"
+format: revealjs
+---
+
+## Combineren van data, bronnen en verhalen
+
+-   Open Science?
+
+## Archeologie
+
+-   Geschiedenis / Historie
+-   Historische bronnen
+-   Epigrafie
+-   Archeologische vondsten
+-   Archeologische opgravingen
+
+## Hout is goud
+
+-   Nederland goede conservering
+
+## Dendrochronologie
+
+## Data science
+
+-   Reproduceerbaar
+-   Verbindend
+
+```{r}
+library(ggvenn)
+ggvenn(list("Archeologie","Dendrochronologie", "Data Science"), 
+       columns = c("Archeologie","Dendrochronologie", "Data Science"),
+       stroke_size = 0.5, show_elements = TRUE) 
+```
+
+## Netwerken
+
+## Interpretatie
+
+## Verhalen
+
+## De weg van Hadrianus
