@@ -1,7 +1,7 @@
 
 # Relating RomanRings: defense
 
-The respository contains the presenation held during the defense of my
+The respository contains the presentation held during the defense of my
 PhD thesis (or dissertation) on May 26 2025. This is the so called
 “lekenpraatje”.
 
