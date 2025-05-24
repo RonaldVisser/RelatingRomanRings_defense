@@ -1,6 +1,6 @@
 ---
 title: "Relating Roman Rings: lekenpraatje"
-subtitle: "slides and English translation at: <https://ronaldvisser.github.io/RelatingRomanRings_defense> (qr-code)"
+subtitle: "slides and English translation at: <https://ronaldvisser.github.io/RelatingRomanRings_defense> (scan QR-code)"
 author: "Ronald M. Visser"
 bibliography: references.bib
 csl: journal-of-computer-applications-in-archaeology.csl

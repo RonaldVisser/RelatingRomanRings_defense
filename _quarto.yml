@@ -6,11 +6,10 @@ website:
   title: "Relating Roman Rings: verdediging"
   site-url: "https://github.com/RonaldVisser/RelatingRomanRings_defense"
   repo-url: https://github.com/RonaldVisser/RelatingRomanRings_defense
-  repo-actions: [issue]
-  
+
   page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Ronald Visser, 2025"
+    right: "This website is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Ronald Visser, 2025 (CC-By)"
 
   navbar:
     search: true
