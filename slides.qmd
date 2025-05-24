@@ -1,0 +1,168 @@
+---
+title: "Relating Roman Rings: lekenpraatje"
+subtitle: "slides and English translation at: <https://ronaldvisser.github.io/RelatingRomanRings_defense> (qr-code)"
+author: "Ronald M. Visser"
+bibliography: references.bib
+csl: journal-of-computer-applications-in-archaeology.csl
+format: 
+  revealjs:
+    footer: "Relating Roman Rings"
+    logo: images/qr_site.png
+    smaller: true
+    title-slide-attributes:
+      data-background-image: "images/00_Frontpage.jpg"
+      data-background-opacity: "0.4"
+    css: style.css
+---
+
+# 
+
+![](images/00_Frontpage.jpg){fig-align="center"}
+
+## Van hout kun je alles maken
+
+![Source: <https://ideas.lego.com/projects/ae18c880-b0b7-4b57-9c4f-bb4e1cfda6ba>](images/lego_fort_hout.png){fig-align="center"}
+
+## Romeins hout
+
+::: columns
+::: {.column width="60%"}
+![[Source: @visser2025, Figure 09.08] = [@visservorst2022, Figure 7]](images/Figure_09.08_Zwammerdam_2_ZWS2_72-216_17.jpg)
+:::
+
+::: {.column width="40%"}
+![[Source: @visser2025, Figure 06.07]](images/Figure_06.07_Post_ForumHadriani.JPG)
+:::
+:::
+
+## Hout = goud
+
+::: columns
+::: {.column width="40%"}
+![\[Source: Rijksdienst voor het Cultureel Erfgoed, \[MA\]DMN1-215 <https://beeldbank.cultureelerfgoed.nl/rce-mediabank/detail/bb73180e-34f4-b3bd-85bb-5f756a810fae/media/c5dcc054-c9f7-de6e-60dd-8e9bc0ea1554>\]](images/%5BMA%5DDMN1-215.jpg)
+:::
+
+::: {.column width="60%"}
+![\[Eigen foto\]](images/IMAG4495.jpg)
+:::
+:::
+
+## Interdisciplinaire gegevens
+
+![[Source: @visser2025, Figure 03.02]](images/Figure_03.02_Data_sources.png){fig-align="center"}
+
+## Onevenredige verdeling van dendrochronologische data
+
+::: columns
+::: {.column width="70%"}
+![](images/Figure_03.10_Map_NumberOfSamples.png){width="65%" fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![](images/Figure_03.17_number_tree_rings_year.png)
+
+::: {style="font-size: 60%;"}
+[Source right figure: @visser2025, Figure 03.17] [Source left figure: @visser2025, Figure 03.10]
+:::
+
+Sparse big data:
+
+-   Met name eik
+-   Ruimtelijke spreiding
+-   Spreiding in de tijd
+:::
+:::
+
+## Houtproductie
+
+::: columns
+::: {.column width="40%"}
+![[Source: @visser2025, Figure 04.05]](images/Figure_04.02_ClearCutting_colour.jpg)
+
+![[Source: @visser2025, Figure 04.05]](images/Figure_04.05_CoppicedOak_Laarsenberg(NL)_new.JPG)
+:::
+
+::: {.column width="50%"}
+![[Source: @visser2025, Figure 04.04]](images/Figure_04.04_SaltuarAxes.png)
+
+-   Kaalkap
+-   Selectie
+-   Hakhout
+-   Agrarisch bosbeheer
+:::
+:::
+
+## Jaarringen
+
+::: columns
+::: {.column width="50%"}
+-   Jaarlijks nieuwe ring van hout om boom
+-   Breedte afhankelijke van:
+    -   Bodem
+    -   Klimaat (en weer)
+    -   Andere factoren
+-   Reeks jaarringen
+    -   Uniek in de tijd
+    -   Plaatsgebonden
+:::
+
+::: {.column width="50%"}
+![](images/treering_formation.png)
+:::
+:::
+
+## De weg van Hadrianus: vindplaatsen
+
+![[Source: @visser2025, Figure 05.06]](images/Figure_05.06_ROMLIMES_findlocations.png)
+
+## De weg van Hadrianus: herkomst
+
+![[Source: @visser2025, Figure 05.11]](images/Figure_05.11_Provenance_region_new.png)
+
+## Gleichläufigkeit -\> Synchronous Growth Changes (SGC)
+
+![[Source: @visser2025, Figure 07.02]](images/Figure_07.02_ExplainGLK.png)
+
+## Netwerken
+
+![[Source: @visser2025, Figure 09.03]](images/Figure_09.03_NetworkExplain.png)
+
+## Netwerken en gemeenschappen (groepen)
+
+![[Aangepast: @visser2025, Figure 08.12]](images/Figure_08.12_Network_GN03_map_network.png)
+
+## dendroNetwork
+
+::: columns
+::: {.column width="50%"}
+![@visser2024](images/dendroNetwork_hexsticker.png)
+:::
+
+::: {.column width="50%"}
+![](images/rOpenSci_icon_lettering_color.png)
+
+<https://ropensci.github.io/dendroNetwork/>
+:::
+:::
+
+## Herkomst van (eiken)hout in het netwerk
+
+![[Source: @visser2025, Figure 08.13]](images/Figure_08.13_network_4_means_GN_legend_provenance.png)
+
+## Herkomst van (eiken)hout: aangevoerd versus lokaal
+
+::: columns
+::: {.column width="70%"}
+![[Source: @visser2024a, Figure 2]](images/Figure_2_Network_means_1_transported_with_legend.jpg)
+:::
+
+::: {.column width="30%"}
+![[Source: @visser2024a, Figure 3]](images/Figure_3_transported_bar.jpg)
+:::
+:::
+
+## Een model voor de Romeinse houtvoorziening
+
+![[Source: @visser2025, Figure 10.04]](images/Figure_10.04_TimberEconomy_Models.png)
+
+## Literatuurlijst

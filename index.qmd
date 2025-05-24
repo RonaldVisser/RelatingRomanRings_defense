@@ -1,171 +1,56 @@
 ---
 title: "Relating Roman Rings: lekenpraatje"
-author: "Ronald M. Visser"
+author:
+  - name: Ronald M. Visser
+    orcid: 0000-0001-6966-1729
+    email: r.m.visser@saxion.nl
 bibliography: references.bib
 csl: journal-of-computer-applications-in-archaeology.csl
-format: 
-  revealjs:
-    footer: "Relating Roman Rings"
-    smaller: true
-    title-slide-attributes:
-      data-background-image: "images/00_Frontpage.jpg"
-      data-background-opacity: "0.4"
-    css: style.css
+date: today
 ---
 
-# {}
+![Voorpagina van het proefschrift [@visser2025].](images/00_Frontpage.jpg)
 
-![](images/00_Frontpage.jpg){fig-align="center"}
+## Inleiding
 
-## Van hout kun je alles maken
+Welkom familie, vrienden en collega's. Vandaag mag ik mijn proefschrift ([dia01](slides.html#/section)) "*Relating Roman Rings. An interdisciplinary study using archaeology, data science and tree rings to understand timber provision in the German Provinces of the Roman Empire*" verdedigen [@visser2025]. Ik heb nu 10 minuten om het werk van jaren beknopt en begrijpelijk uit te leggen. Ik ga mijn best doen om 366 pagina's met een aantal dia's beknopt uit te leggen.
 
-![Source: <https://ideas.lego.com/projects/ae18c880-b0b7-4b57-9c4f-bb4e1cfda6ba>](images/lego_fort_hout.png){fig-align="center"}
+Ik heb onderzoek gedaan naar hout in de Romeinse tijd, en dan met name gericht op productie en herkomst van hout. Waarom hout? Hout is één van de belangrijkste grondstoffen in de Romeinse tijd, maar ook tegenwoordig nog. Van hout kun je immers alles maken ([dia02](slides.html#/van-hout-kun-je-alles-maken)). We kennen uit de Romeinse tijd bijvoorbeeld ([dia03](slides.html#/romeins-hout)) houten boten, houten waterputten, houten funderingen, maar ook bij de bouw van bruggen en wegen was veel hout nodig. En dan heb ik nog niet gesproken over kleine gebruiksvoorwerpen of het gebruik van brandhout.
 
-## Romeins hout
-::: columns
-::: {.column width="60%"}
-![[Source: @visser2025, Figure 09.08] = [@visservorst2022, Figure 7]](images/Figure_09.08_Zwammerdam_2_ZWS2_72-216_17.jpg)
-:::
-::: {.column width="40%"}
-![[Source: @visser2025, Figure 06.07]](images/Figure_06.07_Post_ForumHadriani.JPG)
-:::
-:::
+In Nederland en omstreken vinden we veel hout tijdens archeologische opgravingen en dat maakt de Nederlandse archeologie heel bijzonder, want hout is ons archeologisch goud. We hebben in ons land een uniek bodemarchief met veel organische materialen ([dia04](slides.html#/hout-goud)), zo zijn bijvoorbeeld de enige bekende complete spanzagen afkomstig uit De Meern en kennen we prachtig behouden schepen of complete infrastructuur gefundeerd op houten palen. Dit geeft ons een uniek inzicht in historisch materiaalgebruik. Wat we echter niet weten, is waar al dat hout vandaan kwam. We weten de archeologische vindplaatsen, maar niet waar de bomen groeiden en of en hoe men voor de bomen zorgde. Haalde men het hout uit het bos om de hoek? Of werd hout over lange afstand getransporteerd? En wat veroorzaakte dit dan?
 
-## Hout = goud
-::: columns
-::: {.column width="40%"}
-![[Source: Rijksdienst voor het Cultureel Erfgoed, [MA]DMN1-215 <https://beeldbank.cultureelerfgoed.nl/rce-mediabank/detail/bb73180e-34f4-b3bd-85bb-5f756a810fae/media/c5dcc054-c9f7-de6e-60dd-8e9bc0ea1554>]](images/[MA]DMN1-215.jpg)
-:::
-::: {.column width="60%"}
-![[Eigen foto]](images/IMAG4495.jpg)
-:::
-:::
+# Gebruikte gegevens
 
+Om dit te onderzoeken heb ik gebruik gemaakt van bestaande gegevens ([dia05](slides.html#/interdisciplinaire-gegevens)), zoals archeologische gegevens, jaarringgegevens, historische gegevens, ruimtelijke gegevens en bijvoorbeeld inscripties. Vanwege de hoeveelheid en diversiteit aan gegevens, heb ik gebruik moeten maken van (methodes uit) verschillende disciplines. Hierdoor stond een interdisciplinaire benadering centraal. Het samenbrengen van deze gegevens is al een onderzoek op zich, zeker omdat archeologische en de daarmee samenhangende dendrochronologische gegevens verre van compleet zijn en vol met hiaten zitten ([dia06](/slides.html#/onevenredige-verdeling-van-dendrochronologische-data)). De dataset is ontstaan door toevalligheden en gericht onderzoek, waardoor er veel variatie in zit, zowel in tijd, ruimtelijke spreiding als in hoeveelheid.
 
-## Gebruikte bronnen/gegevens
+# Productie van hout
 
-![[Source: @visser2025, Figure 03.02]](images/Figure_03.02_Data_sources.png){fig-align="center"}
+Laten we eerst eens kijken naar de productie. Hout produceer je in een bos. In mijn onderzoek heb ik laten zien dat er duidelijke aanwijzingen zijn voor bosbouw in de Romeinse tijd ([dia07](slides.html#/houtproductie)). De kennis om voor bomen te zorgen staat duidelijk in de historische bronnen, zoals planten, zaaien en stekken, maar ook bemesten van grond wordt beschreven in de historische bronnen. In de Romeinse tijd werd er gebruik gemaakt van minimaal vier bosbouwsystemen: kaalkap, selectie, hakhout en agrarisch bosgebruik. Kaalkap is vrij eenvoudig: alle bomen in een areaal werden gekapt. Dat kon in de Romeinse tijd ook een militaire vergelding zijn, maar ook gewoon een manier om aan veel hout te komen. Selectie gaat uit van de selectie van specifieke bomen voor gebruik en een deel te laten staan. Dit is een manier van beheer die we in de bronnen terugvinden, maar ook archeologisch kennen. Gebruik van hakhout kwam zeker voor, en is archeologisch al ver voor de Romeinse tijd aangetoond. Bij hakhout worden bomen gekapt of geknot en de uitlopers worden na een aantal jaren weer gekapt. Knotwilgen zijn een goed voorbeeld hiervan, maar we kennen ook veel eikenhakhout. De laatste bosbouwmethode die kon worden aangetoond in de Romeinse tijd betreft agrarisch bosgebruik, zoals varkens die in bossen worden vetgemest.
 
-## Dendrochronological data: "bias"
+# Herkomst van hout
 
-::: columns
-::: {.column width="70%"}
-![](images/Figure_03.10_Map_NumberOfSamples.png){width="65%" fig-align="center"}
-:::
+De herkomst van hout was een centraal aspect in mijn proefschrift. Waar we tot op de centimeter nauwkeurig weten waar hout is opgegraven, is de groeiplaats van de bomen vaak onbekend. Dat heb ik onderzocht en daarvoor een nieuwe methode ontwikkeld. Hierbij heb ik gebruik gemaakt van dendrochronologische gegevens. Dit zijn metingen van jaarringbreedtes. Deze heb ik grotendeels niet zelf gemeten, maar ik kon gebruik maken van metingen van anderen. Gelukkig is deze data nu grotendeels open, zodat het reproduceerbaar en herleidbaar is. Waarom jaarringen? De breedte van een jaarring is ieder jaar anders en dat komt door de verschillen in onder meer bodem, weer en klimaat ([dia08](slides.html#/jaarringen)). Omdat ieder jaar anders is, zijn deze patronen van dikke en dunne ringen uniek in de tijd, waardoor dateren mogelijk is. Deze patronen zijn echter niet alleen uniek in de tijd, ze zijn ook plaatsgebonden, omdat de groeiomstandigheden van bijvoorbeeld bomen in West-Nederland anders zijn dan op de Nederlandse zandgebieden of bijvoorbeeld richting Koblenz of Trier. Door jaarringpatronen met elkaar te vergelijken, kun je iets zeggen over vergelijkbare herkomst. Daarvoor heb je echter veel data nodig en die had ik tot mijn beschikking
 
-::: {.column width="30%"}
-![](images/Figure_03.17_number_tree_rings_year.png)
+## Limesweg: de weg van Hardrianus
 
-::: {style="font-size: 60%;"}
-[Source right figure: @visser2025, Figure 03.17] [Source left figure: @visser2025, Figure 03.10]
-:::
-Sparse big data:
+Één van de herkomststudies betreft het hout van de *limes*weg, of wat ik graag de Weg van Hadrianus noem ([dia09](slides.html#/de-weg-van-hadrianus-vindplaatsen)). Deze weg werd waarschijnlijk gebouwd in 125 na Christus met hout van bomen die in de winter van 124-125 gekapt zijn. Deze weg is op verschillende plaatsen opgegraven en zowel uit de bouwwijze als uit de jaarringpatronen blijkt dat dit een centraal georganiseerd project was. Dit was duidelijk één partij hout, want de jaarringpatronen van de eikenhouten palen van verschillende vindplaatsen lijken zeer sterk op elkaar, en kwamen dus uit dezelfde regio. Mijn onderzoek heeft aangetoond dat het herkomstgebied tussen Rijn en Maas zal liggen, in de buurt van Xanten en Venlo ([dia10](slides.html#/de-weg-van-hadrianus-herkomst)). Deze herkomstbepaling is gebaseerd op de vergelijking met hout gevonden in die regio's, maar ook door de aanwezigheid van meikeversignaal in de jaarringreeksen. Afhankelijk van de regio, worden engerlingen na 3-5 jaar meikevers. Ze vliegen dan uit en eten vaak het loof van eikenbomen, waardoor de groei sterk beperkt wordt en dat zie je terug in de jaarringen. Meikevers hebben een bepaalde bodem nodig en dat komt ook overeen met het door mij bepaalde herkomstgebied. De door anderen veronderstelde herkomst in de Ardennen is overigens niet correct.
 
-- Met name eik
-- Ruimtelijke spreiding
-- Spreiding in de tijd
-:::
-:::
+Het onderzoek naar de *limes*weg is gebaseerd op de handmatige vergelijking van jaarringreeksen. Dat heb ik in essentie ook gedaan in hoofdstuk 6, maar dan voor meerdere *case-studies*. Deze handmatige vergelijking werkt in principe goed, maar kost veel tijd is is niet altijd eenvoudig te volgen. Daarom ben ik op zoek gegaan naar een manier om het onderzoek transparant, herleidbaar en visueel te maken.
 
-## Houtproductie
+## Overeenkomst en netwerken
 
-::: columns
-::: {.column width="40%"}
+Voor het bepalen van de herkomst en de benodigde groepering in de gebruike grote dataset, heb ik gebruik gemaakt van meerdere statistische maten. De meeste studies baseren zich echter vaak op één maat, maar verschillende maten beschrijven soms net verschillende aspecten van de relatie. Helaas bleek een sinds de jaren '40 gebruikte maat, de *Gleichläufigkeit*, onvoldoende zuiver te zijn ([dia11](slides.html#/gleichläufigkeit---synchronous-growth-changes-sgc)). Ik heb daarom een nieuwe statistische maat voor het meten van de mate van overeenkomst voorgesteld: de *Synchronous Growth Changes* (SGC). Deze statistische maat is opgenomen in de standaard dendrochronologische software in R, dplR.
 
-![[Source: @visser2025, Figure 04.05]](images/Figure_04.02_ClearCutting_colour.jpg)
+Gewone clustering werkte onvoldoende voor groepering, omdat de gegevens zowel in de tijd als in de ruimte onevenredig verdeeld zijn. Ik kwam al snel op het idee om deze statistische relaties middels een netwerk te onderzoeken ([dia12](slides.html#/netwerken)). Als jaarringpatronen immers een sterke statistische relatie hebben, zullen ze overeenkomstige groeiomstandigheden hebben gehad en dus dichtbij elkaar in het netwerk terecht komen. De locaties in het netwerk geven daarmee een indicatie van de herkomst. Dat heb ik gedaan en de netwerken laten duidelijke patronen zien ([dia13](slides.html#/netwerken-en-gemeenschappen-groepen)). Zeker wanneer je groepen, ook wel gemeenschappen genoemd, gaat onderscheiden. Om deze methode toegankelijker en reproduceerbaar te maken, heb ik een stukje software ontwikkeld ([dia14](slides.html#/dendronetwork)): dendroNetwork [@visser2024].
 
-![[Source: @visser2025, Figure 04.05]](images/Figure_04.05_CoppicedOak_Laarsenberg(NL)_new.JPG)
+Bij het interpreteren van de netwerken voor de herkomst ([dia15](slides.html#/herkomst-van-eikenhout-in-het-netwerk)) moet je rekening houden met de archeologische context en de systemische context. Dat laatste heeft betrekking op het gebruik in het verleden. Zo is de kans groot dat een schip in het verleden gevaren heeft en dus verplaatst is. Daarnaast is de kans groter dan hout stroomafwaarts getransporteerd is dan stroomopwaarts en het is ook moeilijker om een boom een berg op te transporteren, dan af. Door de ruimtelijke verspreiding van vindplaatsen te vergelijken met de topologie, ofwel het uiterlijk, van een netwerk, kun je daarmee een goede inschatting maken welk hout verplaatst is en welke niet.
 
-:::
-::: {.column width="50%"}
+# Model voor de Romeinse houtvoorziening
 
-![[Source: @visser2025, Figure 04.04]](images/Figure_04.04_SaltuarAxes.png)
+Op basis van de herkomstbepaling met behulp van de netwerken ([dia16](slides.html#/herkomst-van-eikenhout-aangevoerd-versus-lokaal)), is gebleken dat het merendeel van het hout lokaal werd gewonnen. Waar we nu steeds meer lokaal willen gaan produceren en gebruiken, was in de Romeinse tijd lokaal normaal voor houtwinning. Ik heb echter ook geconstateerd dat er in specifieke gevallen wel hout van elders werd gehaald, maar dat waren uitzonderingen. Zo heb ik al genoemd dat voor de weg van Hadrianus hout werd aangevoerd over een afstand van ruim 100 kilometer. Ook voor de bouw van diverse platbodems werd hout van elders gehaald, van nog verder weg, maar wel in combinatie met lokaal gewonnen hout. Voor de haven in Voorburg werd het hout ook uit Bovengermanië gehaald. In de Romeinse tijd maakte men dus een hele specifieke keuze om hout van elders te halen, maar vaker van lokale, of regionale, bossen.
 
-- Kaalkap
-- Selectie
-- Hakhout
-- Agrarisch bosbeheer
-:::
-:::
+Ik heb dat proberen te vatten in een model ([dia17](slides.html#/een-model-voor-de-romeinse-houtvoorziening)), dat ik op twee manieren heb beschreven, als een piramide en een cirkelvormig model, los van circulaire aspecten. Lokaal was de norm en kwam het meeste voor, vandaar dat dat de basis is van de piramide. In het circulaire model vormt het de kern. Hout van verder weg, maar nog binnen de grenzen van de Romeinse provincie *Germania inferior*, heb ik het provinciale niveau genoemd. Dit lijkt ook het maximum te zijn voor het Romeinse leger, wat mogelijk samen zou kunnen hangen met de juridische grenzen van de provincie. Dit is in de piramide kleiner en in de cirkel verder van de kern. Hout dat van buiten de provincie is aangevoerd heb ik het rijksniveau (imperiaal) genoemd. Dat was zeer uitzonderlijk, en daarom kleiner in de piramide. De grenzen in het cirkelvormige model heb ik langzaam laten overgaan, omdat de grenzen niet altijd hard zijn aan te duiden.
 
-## Jaarringen
+Uiteraard heb ik nog veel meer gedaan, en natuurlijk ook allemaal wetenschappelijk verantwoord, open en reproduceerbaar, passend bij *open science*. Ook het proefschrift zelf en deze presentatie zijn openbaar toegankelijk. Bedankt voor jullie aandacht en dan nu naar de vragen van de commissie. Ik ben benieuwd!
 
-::: columns
-::: {.column width="50%"}
--   Jaarlijks nieuwe ring van hout om boom
--   Breedte afhankelijke van:
-    -   Bodem
-    -   Klimaat (en weer)
-    -   Andere factoren
-    
--   Reeks jaarringen
-    -   Uniek in de tijd
-    -   Plaatsgebonden
-:::
-
-::: {.column width="50%"}
-![](images/treering_formation.png)
-:::
-:::
-
-## De weg van Hadrianus: vindplaatsen
-
-![[Source: @visser2025, Figure 05.06]](images/Figure_05.06_ROMLIMES_findlocations.png)
-
-## De weg van Hadrianus: herkomst
-
-![[Source: @visser2025, Figure 05.11]](images/Figure_05.11_Provenance_region_new.png)
-
-## Gleichläufigkeit -> Synchronous Growth Changes (SGC)
-
-![[Source: @visser2025, Figure 07.02]](images/Figure_07.02_ExplainGLK.png)
-
-## Netwerken
-
-![[Source: @visser2025, Figure 09.03]](images/Figure_09.03_NetworkExplain.png)
-
-## Netwerken en gemeenschappen (groepen)
-
-![[Aangepast: @visser2025, Figure 08.12]](images/Figure_08.12_Network_GN03_map_network.png)
-
-
-## dendroNetwork
-
-::: columns
-::: {.column width="50%"}
-![@visser2024](images/dendroNetwork_hexsticker.png)
-:::
-::: {.column width="50%"}
-![](images/rOpenSci_icon_lettering_color.png)
-
-
-<https://ropensci.github.io/dendroNetwork/>
-:::
-:::
-
-
-
-## Herkomst van (eiken)hout in het netwerk
-
-![[Source: @visser2025, Figure 08.13]](images/Figure_08.13_network_4_means_GN_legend_provenance.png)
-
-
-## Herkomst van (eiken)hout: aangevoerd versus lokaal
-
-::: columns
-::: {.column width="70%"}
-![[Source: @visser2024a, Figure 2]](images/Figure_2_Network_means_1_transported_with_legend.jpg)
-:::
-::: {.column width="30%"}
-![[Source: @visser2024a, Figure 3]](images/Figure_3_transported_bar.jpg)
-:::
-:::
-
-## Een model voor de Romeinse houtvoorziening
-
-![[Source: @visser2025, Figure 10.04]](images/Figure_10.04_TimberEconomy_Models.png)
-
-
-
-## Literatuurlijst
-
+# Literatuurlijst
