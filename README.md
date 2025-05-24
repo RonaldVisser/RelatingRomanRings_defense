@@ -3,15 +3,15 @@
 
 The respository contains the presentation held during the defense of my
 PhD thesis (or dissertation) on May 26 2025. This is the so called
-“lekenpraatje”.
+layman’s talk.
 
-Deze *repository* bevat de presentatie van mijn lekenpraatje gegeven
-tijdens de verdediging van mijn proefschrift “Relating Roman Rings. An
-interdisciplinary study using archaeology, data science and tree rings
-to understand timber provision in the German Provinces of the Roman
-Empire”(Visser 2025) op 26 mei 2025 om 15:45 uur.
+Deze *repository* bevat de presentatie en de tekst van mijn lekenpraatje
+gegeven tijdens de verdediging van mijn proefschrift “Relating Roman
+Rings. An interdisciplinary study using archaeology, data science and
+tree rings to understand timber provision in the German Provinces of the
+Roman Empire”(Visser 2025) op 26 mei 2025 om 15:45 uur.
 
-# Bronnen
+# Bronnen / References
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 

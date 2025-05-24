@@ -1,8 +1,43 @@
 project:
+  type: website
+
+website:
+  page-navigation: true
   title: "Relating Roman Rings: verdediging"
-  output-dir: docs
+  site-url: "https://github.com/RonaldVisser/RelatingRomanRings_defense"
+  repo-url: https://github.com/RonaldVisser/RelatingRomanRings_defense
+  repo-actions: [issue]
+  
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By Ronald Visser, 2025"
 
-editor: visual
+  navbar:
+    search: true
+    right:
+      - icon: mastodon
+        href: https://akademienl.social/@RonaldVisser
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/RonaldVisser/RelatingRomanRings_defense
+          - text: Report a bug
+            href: https://github.com/RonaldVisser/RelatingRomanRings_defense/issues
+    left:
+      - href: index.qmd
+        text: Tekst van het lekenpraatje
+      - href: english_translation.qmd
+        text: English translation
+      - href: slides.qmd
+        text: Presentatie
 
+format:
+  html:
+    theme:
+      light: [theme]
+    code-copy: true
+    code-overflow: wrap
+    toc: true
 
-
+filters:
+  - quarto
