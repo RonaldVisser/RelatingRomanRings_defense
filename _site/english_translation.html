@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ronald M. Visser">
-<meta name="dcterms.date" content="2025-05-24">
+<meta name="dcterms.date" content="2025-05-25">
 
 <title>Relating Roman Rings: verdediging - Relating Roman Rings: layman’s talk (translation)</title>
 <style>
@@ -157,7 +157,7 @@ div.csl-indent {
   <li><a href="#model-for-the-roman-wood-provision" id="toc-model-for-the-roman-wood-provision" class="nav-link" data-scroll-target="#model-for-the-roman-wood-provision">Model for the Roman wood provision</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RonaldVisser/RelatingRomanRings_defense/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -181,7 +181,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2025</p>
+      <p class="date">May 25, 2025</p>
     </div>
   </div>
     
@@ -198,6 +198,7 @@ div.csl-indent {
 </div>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
+<p>“Dear Rector, dear audience”.</p>
 <p>Welcome family, friends and colleagues. Today I will defend my dissertation (<a href="slides.html#/section">slide01</a>) “<em>Relating Roman Rings. An interdisciplinary study using archaeology, data science and tree rings to understand timber provision in the German Provinces of the Roman Empire</em>” <span class="citation" data-cites="visser2025">(<a href="#ref-visser2025" role="doc-biblioref">Visser 2025</a>)</span>. I now have 10 minutes to succinctly and comprehensibly explain the work of years. I will do my best to shortly explain 366 pages with a number of slides.</p>
 <p>I have been researching wood in Roman times, focusing specifically on production and origin of wood. Why wood? Wood is one of the most important raw materials in Roman times, as well as today. After all, you can make anything from wood (<a href="slides.html#/van-hout-kun-je-alles-maken">slide02</a>). For example, we know from Roman times (<a href="slides.html#/romeins-hout">slide03</a>) wooden boats and barges, wooden wells, wooden foundations, but also the construction of bridges and roads required a lot of wood. Not to mention small utensils or the use of firewood.</p>
 <p>In the Netherlands and surrounding areas we find a lot of wood during archaeological excavations and that makes Dutch archaeology very special, because wood is our archaeological gold. We have in our country a unique soil archive with many organic materials (<a href="slides.html#/hout-goud">slide04</a>, for example the only known complete span saws come from De Meern and we have excavated beautifully preserved ships or complete infrastructure founded on wooden piles. This gives us a unique insight into past material use. What we don’t know, however, is where all that wood came from. We know the archaeological sites, but not where the trees grew and if and how they were cared for. Did they get the wood from the forest around the corner? Or was wood transported long distances? And what caused this?</p>
@@ -221,7 +222,7 @@ div.csl-indent {
 <section id="similarity-and-networks" class="level2">
 <h2 class="anchored" data-anchor-id="similarity-and-networks">Similarity and networks</h2>
 <p>To determine the provenance and grouping needed in the large dataset used, I used multiple statistical measures. However, most studies often rely on one measure, but different measures sometimes just describe different aspects of the relationship. Unfortunately, a measure used since the 1940s, the <em>Gleichläufigkeit</em>, proved to be insufficient (<a href="slides.html#/gleichläufigkeit---synchronous-growth-changes-sgc">slide11</a>). I have therefore proposed a new statistical measure for measuring the degree of similarity: the “Synchronous Growth Changes” (SGC). This statistical measure is included in the standard dendrochronological software in R, dplR.</p>
-<p>Clustering did not work adequately for grouping, because the data are distributed uneven in both time and space. I soon came up with the idea of exploring these statistical relationships through a network (<a href="slides.html#/netwerken">slide12</a>). After all, if annual ring patterns have a strong statistical relationship, they will have had corresponding growing conditions and thus end up close together in the network. The locations in the network thus give an indication of origin. I did that and the networks show clear patterns (<a href="slides.html#/netwerken-en-gemeenschappen-groepen">slide13</a>). Especially when you start distinguishing groups, also called communities. To make this method more accessible and reproducible, I developed a piece of software (<a href="slides.html#/dendronetwork">slide14</a>): dendroNetwork <span class="citation" data-cites="visser2024">(<a href="#ref-visser2024" role="doc-biblioref">Visser 2024</a>)</span>.</p>
+<p>Clustering did not work adequately for grouping, because the data are distributed uneven in both time and space. I soon came up with the idea of exploring these statistical relationships through a network. Relationships are formed when the degree of similarity is strong enough (<a href="slides.html#/netwerken">slide12</a>). After all, if annual ring patterns have a strong statistical relationship, they will have had corresponding growing conditions and thus end up close together in the network. The locations in the network thus give an indication of origin. I did that and the networks show clear patterns (<a href="slides.html#/netwerken-en-gemeenschappen-groepen">slide13</a>). Especially when you start distinguishing groups, also called communities. To make this method more accessible and reproducible, I developed a piece of software (<a href="slides.html#/dendronetwork">slide14</a>): dendroNetwork <span class="citation" data-cites="visser2024">(<a href="#ref-visser2024" role="doc-biblioref">Visser 2024</a>)</span>.</p>
 <p>When interpreting provenance networks (<a href="slides.html#/herkomst-van-eikenhout-in-het-netwerk">slide15</a>), one must consider the archaeological context and the systemic context. The latter refers to the use in the past. For example, a ship is likely to have sailed and moved. In addition, wood is more likely to have been transported downstream than upstream, and it is also more difficult to transport a tree up a mountain, rather than down. By comparing the spatial distribution of sites with the topology of the network, or appearance, you can thus make a good estimate of which wood was moved and which was not.</p>
 </section>
 </section>
@@ -347,8 +348,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC-By Ronald Visser, 2025</div>   
-    <div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">© Ronald Visser, 2025 (CC-By)</div>   
+    <div class="nav-footer-right">This website is built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

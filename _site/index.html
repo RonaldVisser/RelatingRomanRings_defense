@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ronald M. Visser">
-<meta name="dcterms.date" content="2025-05-24">
+<meta name="dcterms.date" content="2025-05-25">
 
 <title>Relating Roman Rings: verdediging - Relating Roman Rings: lekenpraatje</title>
 <style>
@@ -181,7 +181,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2025</p>
+      <p class="date">May 25, 2025</p>
     </div>
   </div>
     
@@ -198,6 +198,7 @@ div.csl-indent {
 </div>
 <section id="inleiding" class="level2">
 <h2 class="anchored" data-anchor-id="inleiding">Inleiding</h2>
+<p>“Geachte Rector, geachte aanwezigen”</p>
 <p>Welkom familie, vrienden en collega’s. Vandaag mag ik mijn proefschrift (<a href="slides.html#/section">dia01</a>) “<em>Relating Roman Rings. An interdisciplinary study using archaeology, data science and tree rings to understand timber provision in the German Provinces of the Roman Empire</em>” verdedigen <span class="citation" data-cites="visser2025">(<a href="#ref-visser2025" role="doc-biblioref">Visser 2025</a>)</span>. Ik heb nu 10 minuten om het werk van jaren beknopt en begrijpelijk uit te leggen. Ik ga mijn best doen om 366 pagina’s met een aantal dia’s beknopt uit te leggen.</p>
 <p>Ik heb onderzoek gedaan naar hout in de Romeinse tijd, en dan met name gericht op productie en herkomst van hout. Waarom hout? Hout is één van de belangrijkste grondstoffen in de Romeinse tijd, maar ook tegenwoordig nog. Van hout kun je immers alles maken (<a href="slides.html#/van-hout-kun-je-alles-maken">dia02</a>). We kennen uit de Romeinse tijd bijvoorbeeld (<a href="slides.html#/romeins-hout">dia03</a>) houten boten, houten waterputten, houten funderingen, maar ook bij de bouw van bruggen en wegen was veel hout nodig. En dan heb ik nog niet gesproken over kleine gebruiksvoorwerpen of het gebruik van brandhout.</p>
 <p>In Nederland en omstreken vinden we veel hout tijdens archeologische opgravingen en dat maakt de Nederlandse archeologie heel bijzonder, want hout is ons archeologisch goud. We hebben in ons land een uniek bodemarchief met veel organische materialen (<a href="slides.html#/hout-goud">dia04</a>), zo zijn bijvoorbeeld de enige bekende complete spanzagen afkomstig uit De Meern en kennen we prachtig behouden schepen of complete infrastructuur gefundeerd op houten palen. Dit geeft ons een uniek inzicht in historisch materiaalgebruik. Wat we echter niet weten, is waar al dat hout vandaan kwam. We weten de archeologische vindplaatsen, maar niet waar de bomen groeiden en of en hoe men voor de bomen zorgde. Haalde men het hout uit het bos om de hoek? Of werd hout over lange afstand getransporteerd? En wat veroorzaakte dit dan?</p>
@@ -221,7 +222,7 @@ div.csl-indent {
 <section id="overeenkomst-en-netwerken" class="level2">
 <h2 class="anchored" data-anchor-id="overeenkomst-en-netwerken">Overeenkomst en netwerken</h2>
 <p>Voor het bepalen van de herkomst en de benodigde groepering in de gebruike grote dataset, heb ik gebruik gemaakt van meerdere statistische maten. De meeste studies baseren zich echter vaak op één maat, maar verschillende maten beschrijven soms net verschillende aspecten van de relatie. Helaas bleek een sinds de jaren ’40 gebruikte maat, de <em>Gleichläufigkeit</em>, onvoldoende zuiver te zijn (<a href="slides.html#/gleichläufigkeit---synchronous-growth-changes-sgc">dia11</a>). Ik heb daarom een nieuwe statistische maat voor het meten van de mate van overeenkomst voorgesteld: de <em>Synchronous Growth Changes</em> (SGC). Deze statistische maat is opgenomen in de standaard dendrochronologische software in R, dplR.</p>
-<p>Gewone clustering werkte onvoldoende voor groepering, omdat de gegevens zowel in de tijd als in de ruimte onevenredig verdeeld zijn. Ik kwam al snel op het idee om deze statistische relaties middels een netwerk te onderzoeken (<a href="slides.html#/netwerken">dia12</a>). Als jaarringpatronen immers een sterke statistische relatie hebben, zullen ze overeenkomstige groeiomstandigheden hebben gehad en dus dichtbij elkaar in het netwerk terecht komen. De locaties in het netwerk geven daarmee een indicatie van de herkomst. Dat heb ik gedaan en de netwerken laten duidelijke patronen zien (<a href="slides.html#/netwerken-en-gemeenschappen-groepen">dia13</a>). Zeker wanneer je groepen, ook wel gemeenschappen genoemd, gaat onderscheiden. Om deze methode toegankelijker en reproduceerbaar te maken, heb ik een stukje software ontwikkeld (<a href="slides.html#/dendronetwork">dia14</a>): dendroNetwork <span class="citation" data-cites="visser2024">(<a href="#ref-visser2024" role="doc-biblioref">Visser 2024</a>)</span>.</p>
+<p>Gewone clustering werkte onvoldoende voor groepering, omdat de gegevens zowel in de tijd als in de ruimte onevenredig verdeeld zijn. Ik kwam al snel op het idee om deze statistische relaties middels een netwerk te onderzoeken, waarbij de relaties gevormd worden wanneer de mate van overeenkomst sterk genoeg is (<a href="slides.html#/netwerken">dia12</a>). Jaarringpatronen met een sterke statistische relatie hadden overeenkomstige groeiomstandigheden en komen dichtbij elkaar in het netwerk terecht. De locaties in het netwerk geven daarmee een indicatie van de herkomst. Dat heb ik gedaan en de netwerken laten duidelijke patronen zien (<a href="slides.html#/netwerken-en-gemeenschappen-groepen">dia13</a>). Zeker wanneer je groepen, ook wel gemeenschappen genoemd, gaat onderscheiden. Om deze methode toegankelijker en reproduceerbaar te maken, heb ik een stukje software ontwikkeld (<a href="slides.html#/dendronetwork">dia14</a>): dendroNetwork <span class="citation" data-cites="visser2024">(<a href="#ref-visser2024" role="doc-biblioref">Visser 2024</a>)</span>.</p>
 <p>Bij het interpreteren van de netwerken voor de herkomst (<a href="slides.html#/herkomst-van-eikenhout-in-het-netwerk">dia15</a>) moet je rekening houden met de archeologische context en de systemische context. Dat laatste heeft betrekking op het gebruik in het verleden. Zo is de kans groot dat een schip in het verleden gevaren heeft en dus verplaatst is. Daarnaast is de kans groter dan hout stroomafwaarts getransporteerd is dan stroomopwaarts en het is ook moeilijker om een boom een berg op te transporteren, dan af. Door de ruimtelijke verspreiding van vindplaatsen te vergelijken met de topologie, ofwel het uiterlijk, van een netwerk, kun je daarmee een goede inschatting maken welk hout verplaatst is en welke niet.</p>
 </section>
 </section>
