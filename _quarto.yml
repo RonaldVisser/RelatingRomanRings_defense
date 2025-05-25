@@ -28,8 +28,6 @@ website:
         text: Tekst van het lekenpraatje
       - href: english_translation.qmd
         text: English translation
-      - href: slides.qmd
-        text: Presentatie
 
 format:
   html:

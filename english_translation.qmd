@@ -9,7 +9,11 @@ csl: journal-of-computer-applications-in-archaeology.csl
 date: today
 ---
 
-![Frontpage of my dissertation/thesis [@visser2025].](images/00_Frontpage.jpg)
+```{=html}
+<iframe class="slide-deck" src="slides.html" width="640px" height="360px"> </iframe>
+```
+
+[Open presentation slides in new tab](slides.qmd){.external target="_blank"}
 
 # Introduction 
 
@@ -54,6 +58,8 @@ Based on provenance determination using the networks ([slide16](slides.html#/her
 I have tried to capture that in a model ([slide17](slides.html#/een-model-voor-de-romeinse-houtvoorziening)), which I described in two ways, as a pyramid and a circular model, please don't confuse this with circularity. Local was the norm and was most common, hence that is the base of the pyramid. In the circular model, it is in the centre. Wood from further away, but still within the boundaries of the Roman province of *Germania inferior*, I have termed the provincial level. This also seems to be the maximum for the Roman army, which could possibly be related to the legal boundaries of the province. This is smaller in the pyramid and further from the centre of the circle. Wood brought in from outside the province is considered the imperial level. This was very exceptional, and therefore smaller in the pyramid. I have made the boundaries in the circular model fuzzy, because boundaries between the spheres are not always sharp.
 
 Of course, I did a lot more, and of course all of it scientifically sound, open and reproducible, befitting open science. The dissertation itself and this presentation are also publicly available. Thank you for your attention and now to the committee's questions. I wonder what questions they will ask me!
+
+![Frontpage of my dissertation/thesis [@visser2025].](images/00_Frontpage.jpg)
 
 
 # References

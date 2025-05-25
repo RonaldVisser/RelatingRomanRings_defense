@@ -12,6 +12,9 @@
   text-align: center;
 }
 
-.h1 {
-  font-size: 60px !important;
+.reveal .slide-logo {
+  height: 50px !important;
+  width: 50px !important;
+  max-width: unset !important;
+  max-height: unset !important;
 }

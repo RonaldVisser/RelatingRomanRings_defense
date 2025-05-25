@@ -9,7 +9,12 @@ csl: journal-of-computer-applications-in-archaeology.csl
 date: today
 ---
 
-![Voorpagina van het proefschrift [@visser2025].](images/00_Frontpage.jpg)
+```{=html}
+<iframe class="slide-deck" src="slides.html" width="640px" height="360px"> </iframe>
+```
+
+
+[Open de dia's van de presentatie in een nieuw tabblad](slides.qmd){.external target="_blank"}
 
 ## Inleiding
 
@@ -54,5 +59,7 @@ Op basis van de herkomstbepaling met behulp van de netwerken ([dia16](slides.htm
 Ik heb dat proberen te vatten in een model ([dia17](slides.html#/een-model-voor-de-romeinse-houtvoorziening)), dat ik op twee manieren heb beschreven, als een piramide en een cirkelvormig model, los van circulaire aspecten. Lokaal was de norm en kwam het meeste voor, vandaar dat dat de basis is van de piramide. In het circulaire model vormt het de kern. Hout van verder weg, maar nog binnen de grenzen van de Romeinse provincie *Germania inferior*, heb ik het provinciale niveau genoemd. Dit lijkt ook het maximum te zijn voor het Romeinse leger, wat mogelijk samen zou kunnen hangen met de juridische grenzen van de provincie. Dit is in de piramide kleiner en in de cirkel verder van de kern. Hout dat van buiten de provincie is aangevoerd heb ik het rijksniveau (imperiaal) genoemd. Dat was zeer uitzonderlijk, en daarom kleiner in de piramide. De grenzen in het cirkelvormige model heb ik langzaam laten overgaan, omdat de grenzen niet altijd hard zijn aan te duiden.
 
 Uiteraard heb ik nog veel meer gedaan, en natuurlijk ook allemaal wetenschappelijk verantwoord, open en reproduceerbaar, passend bij *open science*. Ook het proefschrift zelf en deze presentatie zijn openbaar toegankelijk. Bedankt voor jullie aandacht en dan nu naar de vragen van de commissie. Ik ben benieuwd!
+
+![Voorpagina van het proefschrift [@visser2025].](images/00_Frontpage.jpg)
 
 # Literatuurlijst
