@@ -13,6 +13,8 @@ date: today
 
 # Introduction 
 
+“Dear Rector, dear audience”.
+
 Welcome family, friends and colleagues. Today I will defend my dissertation ([slide01](slides.html#/section)) "*Relating Roman Rings. An interdisciplinary study using archaeology, data science and tree rings to understand timber provision in the German Provinces of the Roman Empire*" [@visser2025]. I now have 10 minutes to succinctly and comprehensibly explain the work of years. I will do my best to shortly explain 366 pages with a number of slides.
 
 I have been researching wood in Roman times, focusing specifically on production and origin of wood. Why wood? Wood is one of the most important raw materials in Roman times, as well as today. After all, you can make anything from wood ([slide02](slides.html#/van-hout-kun-je-alles-maken)). For example, we know from Roman times ([slide03](slides.html#/romeins-hout)) wooden boats and barges, wooden wells, wooden foundations, but also the construction of bridges and roads required a lot of wood. Not to mention small utensils or the use of firewood.
