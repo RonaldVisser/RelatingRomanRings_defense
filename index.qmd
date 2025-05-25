@@ -13,6 +13,8 @@ date: today
 
 ## Inleiding
 
+“Geachte Rector, geachte aanwezigen.”
+
 Welkom familie, vrienden en collega's. Vandaag mag ik mijn proefschrift ([dia01](slides.html#/section)) "*Relating Roman Rings. An interdisciplinary study using archaeology, data science and tree rings to understand timber provision in the German Provinces of the Roman Empire*" verdedigen [@visser2025]. Ik heb nu 10 minuten om het werk van jaren beknopt en begrijpelijk uit te leggen. Ik ga mijn best doen om 366 pagina's met een aantal dia's beknopt uit te leggen.
 
 Ik heb onderzoek gedaan naar hout in de Romeinse tijd, en dan met name gericht op productie en herkomst van hout. Waarom hout? Hout is één van de belangrijkste grondstoffen in de Romeinse tijd, maar ook tegenwoordig nog. Van hout kun je immers alles maken ([dia02](slides.html#/van-hout-kun-je-alles-maken)). We kennen uit de Romeinse tijd bijvoorbeeld ([dia03](slides.html#/romeins-hout)) houten boten, houten waterputten, houten funderingen, maar ook bij de bouw van bruggen en wegen was veel hout nodig. En dan heb ik nog niet gesproken over kleine gebruiksvoorwerpen of het gebruik van brandhout.
