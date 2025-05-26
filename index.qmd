@@ -7,9 +7,8 @@ author:
 bibliography: references.bib
 csl: journal-of-computer-applications-in-archaeology.csl
 date: today
+doi: 10.5281/zenodo.15517018
 ---
-
-[![DOI](https://zenodo.org/badge/937657827.svg)](https://doi.org/10.5281/zenodo.15517018)
 
 ```{=html}
 <iframe class="slide-deck" src="slides.html" width="640px" height="360px"> </iframe>
