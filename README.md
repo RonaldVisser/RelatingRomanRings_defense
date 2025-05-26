@@ -1,4 +1,6 @@
 
+[![DOI](https://zenodo.org/badge/937657827.svg)](https://doi.org/10.5281/zenodo.15517018)
+
 # Relating RomanRings: defense
 
 The respository contains the presentation held during the defense of my
