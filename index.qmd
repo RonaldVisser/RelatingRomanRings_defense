@@ -6,7 +6,7 @@ author:
     email: r.m.visser@saxion.nl
 bibliography: references.bib
 csl: journal-of-computer-applications-in-archaeology.csl
-date: 26-05-2025
+date: 2025-05-26
 doi: 10.5281/zenodo.15517018
 ---
 
