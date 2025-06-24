@@ -6,7 +6,7 @@ author:
     email: r.m.visser@saxion.nl
 bibliography: references.bib
 csl: journal-of-computer-applications-in-archaeology.csl
-date: today
+date: 26-05-2025
 doi: 10.5281/zenodo.15517018
 ---
 
@@ -39,7 +39,7 @@ Laten we eerst eens kijken naar de productie. Hout produceer je in een bos. In m
 
 De herkomst van hout was een centraal aspect in mijn proefschrift. Waar we tot op de centimeter nauwkeurig weten waar hout is opgegraven, is de groeiplaats van de bomen vaak onbekend. Dat heb ik onderzocht en daarvoor een nieuwe methode ontwikkeld. Hierbij heb ik gebruik gemaakt van dendrochronologische gegevens. Dit zijn metingen van jaarringbreedtes. Deze heb ik grotendeels niet zelf gemeten, maar ik kon gebruik maken van metingen van anderen. Gelukkig is deze data nu grotendeels open, zodat het reproduceerbaar en herleidbaar is. Waarom jaarringen? De breedte van een jaarring is ieder jaar anders en dat komt door de verschillen in onder meer bodem, weer en klimaat ([dia08](slides.html#/jaarringen)). Omdat ieder jaar anders is, zijn deze patronen van dikke en dunne ringen uniek in de tijd, waardoor dateren mogelijk is. Deze patronen zijn echter niet alleen uniek in de tijd, ze zijn ook plaatsgebonden, omdat de groeiomstandigheden van bijvoorbeeld bomen in West-Nederland anders zijn dan op de Nederlandse zandgebieden of bijvoorbeeld richting Koblenz of Trier. Door jaarringpatronen met elkaar te vergelijken, kun je iets zeggen over vergelijkbare herkomst. Daarvoor heb je echter veel data nodig en die had ik tot mijn beschikking
 
-## Limesweg: de weg van Hardrianus
+## Limesweg: de weg van Hadrianus
 
 Één van de herkomststudies betreft het hout van de *limes*weg, of wat ik graag de Weg van Hadrianus noem ([dia09](slides.html#/de-weg-van-hadrianus-vindplaatsen)). Deze weg werd waarschijnlijk gebouwd in 125 na Christus met hout van bomen die in de winter van 124-125 gekapt zijn. Deze weg is op verschillende plaatsen opgegraven en zowel uit de bouwwijze als uit de jaarringpatronen blijkt dat dit een centraal georganiseerd project was. Dit was duidelijk één partij hout, want de jaarringpatronen van de eikenhouten palen van verschillende vindplaatsen lijken zeer sterk op elkaar, en kwamen dus uit dezelfde regio. Mijn onderzoek heeft aangetoond dat het herkomstgebied tussen Rijn en Maas zal liggen, in de buurt van Xanten en Venlo ([dia10](slides.html#/de-weg-van-hadrianus-herkomst)). Deze herkomstbepaling is gebaseerd op de vergelijking met hout gevonden in die regio's, maar ook door de aanwezigheid van meikeversignaal in de jaarringreeksen. Afhankelijk van de regio, worden engerlingen na 3-5 jaar meikevers. Ze vliegen dan uit en eten vaak het loof van eikenbomen, waardoor de groei sterk beperkt wordt en dat zie je terug in de jaarringen. Meikevers hebben een bepaalde bodem nodig en dat komt ook overeen met het door mij bepaalde herkomstgebied. De door anderen veronderstelde herkomst in de Ardennen is overigens niet correct.
 
